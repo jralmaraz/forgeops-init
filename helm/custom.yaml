@@ -10,13 +10,13 @@ global:
 openam:
   image:
     repository: hub.docker.com/jralmaraz/openam
-    tag: 6.0.0.2
+    tag: 6.0.0
 amster:
   image:
     repository: hub.docker.com/jralmaraz/amster
-    tag: 6.0.0.2
+    tag: 6.0.0
 opendj:
   image:
     repository: hub.docker.com/jralmaraz/opendj
-    tag: 6.0.0.2
+    tag: 6.0.0
 
