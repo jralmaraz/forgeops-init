@@ -1,0 +1,22 @@
+global:
+  git:
+    repo: git@github.com:jralmaraz/forgeops-init.git
+    branch: release/6.0.0
+    sedFilter: "-e s/dev.mycompany.com/mycompany.com/g"
+  configPath:
+    am: default/am/empty-import
+  useTLS: false
+  domain: .example.com
+openam:
+  image:
+    repository: hub.docker.com/jralmaraz/openam
+    tag: 6.0.0.2
+amster:
+  image:
+    repository: hub.docker.com/jralmaraz/amster
+    tag: 6.0.0.2
+opendj:
+  image:
+    repository: hub.docker.com/jralmaraz/opendj
+    tag: 6.0.0.2
+
