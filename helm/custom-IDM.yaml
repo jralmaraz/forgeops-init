@@ -4,16 +4,12 @@ global:
     branch: release/6.0.0
     sedFilter: "-e s/dev.mycompany.com/qa.mycompany.com/g"
   configPath:
-    am: default/am/empty-import
+    idm: default/idm/sync-with-ldap-bidirectional
   useTLS: false
   domain: .example.com
-openam:
+openidm:
   image:
-    repository: hub.docker.com/jralmaraz/openam
-    tag: 6.0.0
-amster:
-  image:
-    repository: hub.docker.com/jralmaraz/amster
+    repository: hub.docker.com/jralmaraz/openidm
     tag: 6.0.0
 opendj:
   image:
