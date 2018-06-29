@@ -175,7 +175,8 @@
                     "situation" : "UNASSIGNED",
                     "action" : "IGNORE"
                 }
-            ]
+            ],
+            "clusteredSourceReconEnabled" : true
         }
     ]
 }
