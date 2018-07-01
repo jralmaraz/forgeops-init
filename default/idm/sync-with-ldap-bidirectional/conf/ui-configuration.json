@@ -2,7 +2,7 @@
     "configuration" : {
         "selfRegistration" : true,
         "passwordReset" : false,
-        "forgotUsername" : false,
+        "forgotUsername" : true,
         "lang" : "en",
         "passwordResetLink" : "",
         "roles" : {
