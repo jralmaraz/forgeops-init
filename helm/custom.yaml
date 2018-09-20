@@ -2,7 +2,7 @@ global:
   git:
     repo: git@github.com:jralmaraz/forgeops-init.git
     branch: release/6.0.0
-    sedFilter: "-e s/dev.mycompany.com/qa.mycompany.com/g"
+    sedFilter: "-e s/qa.mycompany.com/qa.mycompany.com/g"
   configPath:
     am: default/am/empty-import
   useTLS: false
